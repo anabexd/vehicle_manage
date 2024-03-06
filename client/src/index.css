@@ -1,0 +1,245 @@
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a,
+a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.login {
+  background-color: #ffffff;
+}
+.card {
+  background-color: #ffffff;
+  padding: 7rem 0rem;
+  width: 60%;
+  height: 70%;
+  border: solid 1px #bbbbbb;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+.manage{
+  min-height: 80vh; 
+  justify-content: flex-start;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  width: 70%;
+}
+.car-placeholder{
+  max-width: 100%;
+  margin: 1rem 0rem;
+}
+.vehicleCard{
+  border: 1px solid #BBBBBB;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 2rem;
+  gap: 0.2rem;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  color: #4E4E4E;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0rem;
+}
+.btn-login {
+  margin: 2rem 0rem;
+}
+.footer {
+  width: 100%;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.span {
+  color: #4e4e4e;
+  font-size: 1rem;
+  margin: 1.5rem 0rem;
+}
+.span a {
+  text-decoration: underline;
+}
+
+.line {
+  width: 12%;
+  height: 4px;
+  background-color: #2f88ff;
+}
+.error-message,
+.message-register {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 2rem 4rem;  
+  font-size: 1rem;
+  color: #2f88ff;
+}
+
+.user-sec {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 4rem 0rem;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  color: #464646;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #929292;
+}
+.add-sec {
+  color: #2f88ff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70%;
+  font-size: 1rem;
+  gap: 10px;
+  margin: 4rem;
+  cursor: pointer;
+}
+.subtitle {
+  color: #2f88ff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  width: 70%;
+}
+.close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 3rem;
+  cursor: pointer;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  border: solid 1px #bbbbbb;
+  border-radius: 5px;
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sb-modal {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+.inputs,
+.form-vehicle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs p{
+  color: #2f88ff;
+  
+}
+.inputs {
+  margin-bottom: 3rem;
+}
+.inputs span{
+  color: #2f88ff;
+  margin-bottom: 10px;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.icons span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #2f88ff;
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 70%;
+  }
+  .line {
+    width: 20%;
+  }
+  .span {
+    font-size: 0.8rem;
+  }
+}

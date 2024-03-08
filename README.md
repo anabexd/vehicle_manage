@@ -1,18 +1,21 @@
 # Vehicle Manage 🚘
 
-Sistema de gerenciamento de veículos com login e cadastro.
+Backend developed with Nest.js and MongoDB database. Frontend with React.js, Material-UI, and Redux Toolkit.
 
-## Variáveis de Ambiente
+### Features: 
+- create, update, delete and list vehicles.
+  - vehicle dto: name, plate, model, year, created_at and updated_at.
 
-Como executar o projeto em ambiente de desenvolvimento:
+- create and authenticate user.
+  - user dto: name, email, password (encrypted), created_at and updated_at.  
 
-- `git clone https://github.com/anabmartins/tech-challange-fullstack`
+## Environments variables
+
+How to execute on your local machine:
+
+- `git clone https://github.com/anabexd/vehicle_manage`
 - `cd backend/ ; npm run start`
 - `cd frontend/ ; npm run dev`
 
-## Stack utilizada
 
-**Front-end:** React Vite, Material-UI, Redux Toolkit 
-
-**Back-end:** Nest.js com MongoDB (mongoose)
 

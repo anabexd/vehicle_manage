@@ -14,8 +14,8 @@ Backend developed with Nest.js and MongoDB database. Frontend with React.js, Mat
 How to execute on your local machine:
 
 - `git clone https://github.com/anabexd/vehicle_manage`
-- `cd backend/ ; npm run start`
-- `cd frontend/ ; npm run dev`
+- `cd api/ ; npm run start`
+- `cd client/ ; npm run dev`
 
 
 
